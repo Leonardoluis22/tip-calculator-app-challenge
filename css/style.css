@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+
+  --strong-cyan:hsl(172,67%,45%);
+  --very-dark-cyan:hsl(183, 100%, 15%);
+  --dark-grayish-cyan: hsl(186, 14%, 43%);
+  --dark-grayish-cyan2: hsl(184, 14%, 56%);
+  --light-grayish-cyan: hsl(185, 41%, 84%);
+  --light-grayish-cyan: hsl(189, 41%, 97%);
+  --White: hsl(0, 0%, 100%);
+}
+
+body{
+  background:var(--strong-cyan);
+}
+
+.container{
+  background: var(--White);
+  max-width: 50rem;
+  min-width: 23rem;
+  height:22rem;
+  margin: 10rem auto auto ;
+  border-radius:1rem;
+}
+.result{
+  background:var(--very-dark-cyan);
+  max-width: 25rem;
+  min-width: 19rem;
+  height: 18rem;
+  
+  display:flex;
+  
+}
