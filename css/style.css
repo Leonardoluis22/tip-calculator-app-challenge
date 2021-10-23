@@ -8,7 +8,7 @@
   --dark-grayish-cyan: hsl(186, 14%, 43%);
   --dark-grayish-cyan2: hsl(184, 14%, 56%);
   --light-grayish-cyan: hsl(185, 41%, 84%);
-  --light-grayish-cyan: hsl(189, 41%, 97%);
+  --light-grayish-cyan2: hsl(189, 41%, 97%);
   --White: hsl(0, 0%, 100%);
   
 }
@@ -19,7 +19,7 @@ body{
 
 .container{
   background: var(--White);
-  max-width: 50rem;
+  max-width: 45rem;
   min-width: 23rem;
   height:22rem;
   margin: 10rem auto auto ;
@@ -33,10 +33,15 @@ body{
   display: flex;
   align-items: center;
   justify-content:center;
+  margin-top:2rem;
+ 
+ 
 }
 .container--bill input{
-  width:16.4rem;
+  width:17.8rem;
   height: 1.8rem;
+  background: var(--light-grayish-cyan2);
+  border-style:none;
 }
 
 
@@ -48,10 +53,12 @@ body{
   justify-content:center;
 }
 .container--tips input{
-  width:5rem;
-  height: 1.9rem;
+  width:5.5rem;
+  height: 2.5rem;
   margin:0.2rem auto 0.2rem auto;
   border-radius:4px;
+  background: var(--very-dark-cyan);
+  color:white;
 }
 
 .container--quantyperson{
@@ -62,10 +69,14 @@ grid-row-end:4;
 display: flex;
 align-items:center;
 justify-content:center;
+margin-bottom:2rem;
+
 }
 .container--quantyperson input{
-  width:16.4rem;
+  width:17.8rem;
   height: 1.8rem;
+  background: var(--light-grayish-cyan2);
+  border-style: none;
 }
 .style-span{
   display: block;
