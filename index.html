@@ -13,7 +13,33 @@
   </head>
   <body>
     <main class="container">
-      <div class="result">s</div>
+      <div class="container--bill">
+        <label
+          ><span class="style-span">Bill</span>
+          <input name="bill" type="text" />
+        </label>
+      </div>
+      <div class="container--tips">
+        <label
+          ><span class="style-span">Select Tip %</span>
+
+          <input type="button" value="5%" />
+          <input type="button" value="10%" />
+          <input type="button" value="15%" />
+        <br>
+          <input type="button" value="25%" />
+          <input type="button" value="50%" />
+          <input type="button" value="Custom" />
+        </label>
+      </div>
+      <div class="container--quantyperson">
+        <label
+          ><span class="style-span">Number of People</span>
+          <input type="number" />
+        </label>
+      </div>
+
+      <div class="container--results"></div>
     </main>
     <script src="/js/script.js"></script>
   </body>
